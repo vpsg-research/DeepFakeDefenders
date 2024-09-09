@@ -37,5 +37,5 @@ Choose the best model generated during training:
 python test.py --testset_label_path '/your/path/testset1_seen_nolabel.txt'  --testset_path '/your/path/testset1_seen/' --model_path '/your/path/model_.pt'
 ```
 
-### Pre-training model
+### Pre-training Model
 [Download](https://drive.google.com/file/d/1aZ1Qg1Yt2WGk9LbwVpQc-Ytp-5q49GvW/view?usp=sharing)

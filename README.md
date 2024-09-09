@@ -23,14 +23,9 @@ Enhanced EfficientNet for Face Forgery Detection Using Custom Activations and Au
 
 Or you can use the requirement.txt file to install the necessary packages. We only use a single NVIDIA GeForce RTX 4090 for training.
 
-## Running
-#### Step 1. Prepare the Datasets
+## Quick Start
 
-The dataset should contain image files and txt files of the corresponding images and labels, including the training set, validation set, and test set.
-
-#### Step 2. Quick Start
-
-## Training
+# Training
 
 ```bash
 python train.py --trainset_label_path '/your/path/trainset_label.txt' --valset_label_path '/your/path/valset_label.txt' --trainset_path '/your/path/trainset/' --valset_path '/your/path/valset/'
@@ -40,7 +35,7 @@ For example, if run on the below path:
 python train.py --trainset_label_path '/root/autodl-tmp/Competition/competition/trainset_label.txt' --valset_label_path '/root/autodl-tmp/Competition/competition/valset_label.txt' --trainset_path '/root/autodl-tmp/phase1/trainset/' --valset_path '/root/autodl-tmp/phase1/valset/'
 ```
 
-## Testing
+# Testing
 Choose the best model generated during training:
 ```bash
 python test.py --testset_label_path '/your/path/testset1_seen_nolabel.txt'  --testset_path '/your/path/testset1_seen/' --model_path '/your/path//model_.pt'

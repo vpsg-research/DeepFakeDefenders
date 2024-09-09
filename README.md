@@ -30,10 +30,6 @@ Or you can use the requirement.txt file to install the necessary packages. We on
 ```bash
 python train.py --trainset_label_path '/your/path/trainset_label.txt' --valset_label_path '/your/path/valset_label.txt' --trainset_path '/your/path/trainset/' --valset_path '/your/path/valset/'
 ```
-For example, if run on the below path:
-```bash
-python train.py --trainset_label_path '/root/autodl-tmp/Competition/competition/trainset_label.txt' --valset_label_path '/root/autodl-tmp/Competition/competition/valset_label.txt' --trainset_path '/root/autodl-tmp/phase1/trainset/' --valset_path '/root/autodl-tmp/phase1/valset/'
-```
 
 ### Testing
 Choose the best model generated during training:

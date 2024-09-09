@@ -2,7 +2,7 @@
 
 <center><img src="competition.png "width="100%"></center>
 
-We won the Top 20 Excellence Awards in the Global Multimedia Deepfake Detection.
+We won the Top 20 Excellence Awards in the Global Multimedia Deepfake Detection. Our team consists of Lixin Jia, Hongrui Zheng and Zhiqing Guo([www.guozhiqing.cn](https://www.guozhiqing.cn/)).
 
 # Our Competition Model
 Enhanced EfficientNet for Face Forgery Detection Using Custom Activations and Augmentation.

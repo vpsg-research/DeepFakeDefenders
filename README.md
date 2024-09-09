@@ -38,10 +38,8 @@ python train.py --trainset_label_path '/root/autodl-tmp/Competition/competition/
 ### Testing
 Choose the best model generated during training:
 ```bash
-python test.py --testset_label_path '/your/path/testset1_seen_nolabel.txt'  --testset_path '/your/path/testset1_seen/' --model_path '/your/path//model_.pt'
+python test.py --testset_label_path '/your/path/testset1_seen_nolabel.txt'  --testset_path '/your/path/testset1_seen/' --model_path '/your/path/model_.pt'
 ```
 
-For example, if you want test on model_95.48:
-```bash
-python test.py --testset_label_path '/root/autodl-tmp/phase2/testset1_seen_nolabel.txt'  --testset_path '/root/autodl-tmp/phase2/testset1_seen/' --model_path './model_95.48.pt'
-```
+### Pre-training model
+[Download](https://drive.google.com/file/d/1aZ1Qg1Yt2WGk9LbwVpQc-Ytp-5q49GvW/view?usp=sharing)

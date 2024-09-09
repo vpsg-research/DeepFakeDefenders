@@ -4,7 +4,7 @@
 
 We won the Top 20 Excellence Awards in the Global Multimedia Deepfake Detection. Our team consists of Lixin Jia, Hongrui Zheng and [Dr. Zhiqing Guo](https://www.guozhiqing.cn/).
 
-# Our Competition Model
+# Competition Model
 Enhanced EfficientNet for Face Forgery Detection Using Custom Activations and Augmentation.
 
 ## Setup
@@ -21,10 +21,7 @@ Enhanced EfficientNet for Face Forgery Detection Using Custom Activations and Au
 - torchvision==0.19.0
 - tqdm==4.66.4
 
-Or you can use the requirement.txt file to install the necessary packages.
-
-## Device
-Single NVIDIA GeForce RTX 4090
+Or you can use the requirement.txt file to install the necessary packages. We only use a single NVIDIA GeForce RTX 4090 for training.
 
 ## Run
 #### Step 1. Prepare the Datasets

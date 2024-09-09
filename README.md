@@ -7,7 +7,7 @@ We won the Top 20 Excellence Awards in the Global Multimedia Deepfake Detection.
 # Competition Model
 Enhanced EfficientNet for Face Forgery Detection Using Custom Activations and Augmentation.
 
-## Setup
+## Experimental Environment
 - python==3.8.19
 - numpy==1.24.4
 - opencv-python==4.10.0.84

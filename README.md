@@ -23,7 +23,7 @@ Enhanced EfficientNet for Face Forgery Detection Using Custom Activations and Au
 
 Or you can use the requirement.txt file to install the necessary packages. We only use a single NVIDIA GeForce RTX 4090 for training.
 
-## Run
+## Running
 #### Step 1. Prepare the Datasets
 
 The dataset should contain image files and txt files of the corresponding images and labels, including the training set, validation set, and test set.
